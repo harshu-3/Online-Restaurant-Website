@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Order Page</title>
+    <style>
+        body{
+            background-image: url('bg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            display:flex;
+            justify-content: center;
+        }
+        </style>
+        <link rel="stylesheet" href="file.css">
+        </head>
+
+        <body>
+            <div class="container">
+            <h1 style=color:black; align="center"><b> Order Now</b></h1>
+            <form align="center" style="display:grid; grid-template-rows:max-content;border-color: white;box-shadow:white;position: relative;" >
+                <p>
+                    <label style="color:black;"> Name:<input name="Name"/>
+                    </label>
+                    </p>
+                <p>
+                    <label style="color:black;"> Mobile Number:<input name="Mobile Number"/></label>
+                </p>
+                <p>
+                    <label style="color:black;"> Address:<input name="Address"/></label>
+                </p>
+                <p>
+                    <label style="color:black;"> Email:<input type="email" name="Email"/></label>
+                </p>
+                <p>
+                    <label style="color:black;"> Card Number:<input name="Card Number"/>
+                    </label>
+                </p>
+                <p>
+                    <label style="color:black;"> CVV:<input name="CVV"/>
+                    </label>
+                </p>
+                <p>
+                    <label style="color:black;"> Card Holder Name:<input name="cvv"/>
+                     </label>
+                </p>
+                <p>
+                    <button type="submit" onclick="myFunction()"> Submit</button>
+                    <script>
+                        function myFunction(){
+                            alert("Your order will be delivered within 30 minutes!");
+                        }
+                    </script>
+                </p>
+
+
+                
+            </form>
+            </div>
+
+        </body>
+        </html>
